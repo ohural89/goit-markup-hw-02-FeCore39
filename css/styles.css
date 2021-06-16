@@ -1,26 +1,45 @@
 :root {
+    --main-font: ;
+    --secondary-font: ;
+
     --spec-accent-color: rgba(33, 150, 243, 1);
     --team-bg-color: rgba(245, 244, 250, 1);
     --footer-bg: rgba(47, 48, 58, 1);
 }
 
+/* RESET STYLE */
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
 }
 
-button {
+.btn {
     cursor: pointer;
 }
 
-.logotype {
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+/* END RESET STYLE */
+
+/* HEADER */
+.logo {
     font-family: Raleway;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     /* line-height: 31px; */
     letter-spacing: 0.03em;
+    color: rgba(0, 0, 0, 1);
+}
+
+.logo-accent {
+    color: rgba(33, 150, 243, 1);
 }
 
 .nav-text {
@@ -31,7 +50,161 @@ button {
     line-height: 1.14;
     /*line-height: 16px;*/
     letter-spacing: 0.02em;
-    color: #212121;
+    color: rgba(33, 33, 33, 1);
 }
 
+.header-contacts {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    /*line-height: 16px;*/;
+    letter-spacing: 0.02em;
+    color: rgba(117, 117, 117, 1);
+}
+/* END HEADER */
 
+/* HERO */
+.hero-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    /*line-height: 60px; */
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+}
+/* END HERO */
+
+/* FEATURES */
+.features-suptitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    /*line-height: 16px;*/
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: rgba(33, 33, 33, 1);
+}
+
+.features-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    /*line-height: 24px; */
+    letter-spacing: 0.03em;
+    color: rgba(117, 117, 117, 1);
+}
+/* END FEATURES */
+
+/* WHAT WE DO */
+.what-we-do-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    /*line-height: 42px; */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: rgba(33, 33, 33, 1);
+}
+/* END WHAT WE DO */
+
+/* OUR TEAM */
+.our-team-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    /*line-height: 42px; */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: rgba(33, 33, 33, 1);
+}
+
+.our-team-suptitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+   /* line-height: 19px; */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: rgba(33, 33, 33, 1);
+}
+
+.our-team-name {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    /* line-height: 19px; */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: rgba(117, 117, 117, 1);
+}
+/* END OUR TEAM */
+
+/* FOOTER */
+.logo-footer-accent {
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer-address {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    /*line-height: 24px; */
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer-contacts {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    /*line-height: 24px; */
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+/* END FOOTER */
+
+/* PORTFOLIO */
+.portfolio-suptitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    /* line-height: 36px;*/
+    letter-spacing: 0.06em;
+    color: rgba(33, 33, 33, 1);
+}
+
+.portfolio-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.875;
+    /*line-height: 30px; */
+    letter-spacing: 0.03em;
+    color: rgba(117, 117, 117, 1);
+}
+/* END PORTFOLIO */
