@@ -9,7 +9,11 @@
 /* RESET STYLES */
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
+
+}
+
+img {
+    display: block;
 }
 
 .btn {
@@ -34,7 +38,7 @@ body {
 .link:hover,
 .link:focus {
     color: var(--spec-accent-color);    
-}
+} 
 
 .logo:hover,
 .logo:focus {
@@ -209,7 +213,7 @@ body {
     background-color: var(--footer-bg);
 }
 
-.logo-footer {
+.logo-footer-accent {
     color: var(--norm-accent-color);
 }
 
@@ -255,6 +259,12 @@ body {
 .filter-btn-style:focus {
     background: var(--spec-accent-color);
     color: var(--norm-accent-color);
+}
+
+.portf-box {
+    background: var(--norm-accent-color);
+    border: 1px solid rgba(238, 238, 238, 1);
+    box-sizing: border-box;
 }
 
 .portfolio-suptitle {
