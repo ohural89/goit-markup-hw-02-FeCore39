@@ -1,13 +1,12 @@
 :root {
-    --main-font: ;
-    --secondary-font: ;
-
+    --norm-accent-color: rgba(255, 255, 255, 1);
     --spec-accent-color: rgba(33, 150, 243, 1);
-    --team-bg-color: rgba(245, 244, 250, 1);
+    --hero-btn-hover: rgba(24, 140, 232, 1);
+    --spec-bg-color: rgba(245, 244, 250, 1);
     --footer-bg: rgba(47, 48, 58, 1);
 }
 
-/* RESET STYLE */
+/* RESET STYLES */
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
@@ -15,6 +14,7 @@ body {
 
 .btn {
     cursor: pointer;
+    border: none;
 }
 
 .list {
@@ -24,7 +24,23 @@ body {
 .link {
     text-decoration: none;
 }
-/* END RESET STYLE */
+/* END RESET STYLES */
+
+/* HOVER FOCUS CURRENT */
+.nav-link .current {
+    color: var(--spec-accent-color);  
+}
+
+.link:hover,
+.link:focus {
+    color: var(--spec-accent-color);    
+}
+
+.logo:hover,
+.logo:focus {
+    color: var(--spec-accent-color);
+}
+/* END HOVER FOCUS CURRENT */
 
 /* HEADER */
 .logo {
@@ -39,7 +55,7 @@ body {
 }
 
 .logo-accent {
-    color: rgba(33, 150, 243, 1);
+    color: var(--spec-accent-color);
 }
 
 .nav-text {
@@ -66,6 +82,10 @@ body {
 /* END HEADER */
 
 /* HERO */
+.hero-bg {
+    background-color: rgba(47, 48, 58, 1);
+}
+
 .hero-title {
     font-family: Roboto;
     font-style: normal;
@@ -76,7 +96,30 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: rgba(255, 255, 255, 1);
+    color: var(--norm-accent-color);
+}
+
+.hero-btn-style {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    /* line-height: 30px;*/
+    letter-spacing: 0.06em;
+    color: var(--norm-accent-color);
+
+    padding: 10px 32px;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    background-color: var(--spec-accent-color);
+}
+
+.hero-btn-style:hover,
+.hero-btn-style:focus {
+    background-color: var(--hero-btn-hover);
+    outline: none;
 }
 /* END HERO */
 
@@ -120,6 +163,10 @@ body {
 /* END WHAT WE DO */
 
 /* OUR TEAM */
+.our-team {
+    background-color: var(--spec-bg-color);
+}
+
 .our-team-title {
     font-family: Roboto;
     font-style: normal;
@@ -158,8 +205,12 @@ body {
 /* END OUR TEAM */
 
 /* FOOTER */
-.logo-footer-accent {
-    color: rgba(255, 255, 255, 1);
+.footer-bg-color {
+    background-color: var(--footer-bg);
+}
+
+.logo-footer {
+    color: var(--norm-accent-color);
 }
 
 .footer-address {
@@ -170,7 +221,7 @@ body {
     line-height: 1.7;
     /*line-height: 24px; */
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 1);
+    color: var(--norm-accent-color);
 }
 
 .footer-contacts {
@@ -186,6 +237,26 @@ body {
 /* END FOOTER */
 
 /* PORTFOLIO */
+.filter-btn-style {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    /*line-height: 26px; */
+    letter-spacing: 0.03em;
+    color: rgba(33, 33, 33, 1);
+
+    background: var(--spec-bg-color);
+    border-radius: 4px;
+}
+
+.filter-btn-style:hover,
+.filter-btn-style:focus {
+    background: var(--spec-accent-color);
+    color: var(--norm-accent-color);
+}
+
 .portfolio-suptitle {
     font-family: Roboto;
     font-style: normal;
