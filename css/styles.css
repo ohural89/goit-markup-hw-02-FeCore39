@@ -15,6 +15,7 @@
 /* RESET STYLES */
 body {
     font-family: var(--main-font);
+    font-weight: 400;
     font-style: normal;
     letter-spacing: 0.03em;
 }
@@ -147,7 +148,6 @@ h6 {
 }
 
 .features-text {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     /*line-height: 24px; */
@@ -187,7 +187,6 @@ h6 {
 }
 
 .our-team-name {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     /* line-height: 19px; */
@@ -203,7 +202,6 @@ h6 {
 
 .footer-address,
 .footer-contacts {
-    font-weight: 400;
     font-style: normal;
     font-size: 14px;
     line-height: 1.7;
@@ -258,7 +256,6 @@ h6 {
 }
 
 .portfolio-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.875;
     /*line-height: 30px; */
